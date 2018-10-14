@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Monthly Budget</title>
+    </head>
+    <body>
+        
+        <div class="inputs">
+            <div class="budget">
+                <div class="budgetTitle">
+                    Available Budget for <span class="budgetTitleMonth">%Month%</span>:
+                </div>
+                
+                <div class="budgetValue">+ 2,345.64</div>
+                
+                <div class="budgetIncome">
+                    <div class="budgetIncomeText">Income</div>
+                    <div class="right">
+                        <div class="budgetIncomeValue">+ 4,300.00</div>
+                    </div>
+                </div>
+                
+                <div class="budgetExpenses">
+                    <div class="budgetExpensesText">Expenses</div>
+                    <div class="right">
+                        <div class="budgetExpensesValue">- 1,954.36</div>
+                        <div class="budgetExpensesPercentage">45%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <div class="outputs">
+            <div class="add">
+                <div class="addContainer">
+                    <select class="addType">
+                        <option value="inc" selected>+</option>
+                        <option value="exp">-</option>
+                    </select>
+                    <input type="text" class="addDescription" placeholder="Add description">
+                    <input type="number" class="addValue" placeholder="Value">
+                    <button class="addBtn"></button>
+                </div>
+            </div>
+            
+            <div class="container">
+                
+                <div class="income">
+                    <h2 class="icomeTitle">Income</h2>
+                    
+                    <div class="incomeList">
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <div class="expenses">
+                    <h2 class="expensesTitle">Expenses</h2>
+                    
+                    <div class="expensesList">
+                        
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+        </div>
+        
+        <script src="app.js"></script>
+    </body>
+</html>
